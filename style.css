@@ -1,0 +1,43 @@
+body {
+  background-image: url(./yellow-lemon.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 90px;
+  font-family: "Bebas Neue", cursive;
+}
+
+nav {
+  float: right;
+  display: inline-flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+nav ul {
+  display: inline;
+  list-style: none;
+  font-style: oblique;
+}
+
+main {
+  width: 400px;
+  height: 300px;
+  display: block;
+}
+
+h1 {
+  font-style: oblique;
+}
+
+p {
+  height: 100px;
+  width: 400px;
+  font-size: 20px;
+}
+
+.logo-ul {
+  float: right;
+  list-style: none;
+  margin: 15px;
+}
