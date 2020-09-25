@@ -1,3 +1,4 @@
+html,
 body {
   background-image: url(./yellow-lemon.jpg);
   background-size: cover;
@@ -5,25 +6,28 @@ body {
   background-repeat: no-repeat;
   padding: 90px;
   font-family: "Bebas Neue", cursive;
+  text-align: center;
 }
 
 nav {
   float: right;
-  display: inline-flex;
   flex-direction: row;
   font-size: 20px;
 }
 
 nav ul {
-  display: inline;
   list-style: none;
   font-style: oblique;
 }
 
-main {
-  width: 400px;
-  height: 300px;
-  display: block;
+nav ul li {
+  display: inline;
+  padding: 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
 }
 
 h1 {
@@ -40,4 +44,34 @@ p {
   float: right;
   list-style: none;
   margin: 15px;
+}
+
+.logo-ul li {
+  padding: 12px;
+}
+
+button {
+  border: 2px solid black;
+  color: #fdd130;
+  background-color: black;
+  font-size: 20px;
+  font-style: oblique;
+  font-family: "Bebas Neue", cursive;
+  transition: all 300ms transparent;
+  cursor: pointer;
+  padding: 10px 16px;
+}
+
+button:hover {
+  color: black;
+  background-color: transparent;
+}
+
+.box-btn {
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  left: 0;
 }
