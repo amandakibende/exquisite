@@ -5,9 +5,8 @@ body {
   background-repeat: no-repeat;
   padding: 90px;
   font-family: "Bebas Neue", cursive;
-  text-align: center;
 }
-
+/*navbar*/
 nav {
   float: right;
   flex-direction: row;
@@ -31,6 +30,7 @@ nav ul li a {
 
 h1 {
   font-style: oblique;
+  font-size: 90px;
 }
 
 p {
@@ -38,6 +38,8 @@ p {
   width: 400px;
   font-size: 20px;
 }
+
+/*logo*/
 
 .logo-ul {
   float: right;
@@ -53,6 +55,8 @@ img:hover {
   transform: translateY(-6px);
 }
 
+/*button property*/
+
 button {
   border: 2px solid black;
   color: #fdd130;
@@ -63,18 +67,10 @@ button {
   transition: all 300ms transparent;
   cursor: pointer;
   padding: 10px 16px;
+  margin-top: 35px;
 }
 
 button:hover {
   color: black;
   background-color: transparent;
-}
-
-.box-btn {
-  position: relative;
-}
-
-.btn {
-  position: absolute;
-  left: 0;
 }
